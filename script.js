@@ -53,15 +53,17 @@
 
 // TASK 3
 
-// let desiredPleasantry = "greeting";
+let desiredPleasantry = "farewell";
 
-// let bensPhrases = {
-//   greeting: "Well hello there!",
-//   farewell: "See you in another life brother",
-//   smallTalk: "Warm today isn't it...",
-// };
+let bensPhrases = {
+  greeting: "Well hello there!",
+  farewell: "See you in another life brother",
+  smallTalk: "Warm today isn't it...",
+};
 
-// console.log(bensPhrases[greeting]);
+console.log(bensPhrases[desiredPleasantry]);
+
+// bensPhrases[desiredPleasantry]
 
 // TASK 4
 
@@ -90,3 +92,7 @@
 // let message = communication.payload.message.text;
 
 // console.log(message);
+
+let arr = ["alex", "james", "platt"];
+
+console.log(arr, arr.length);
