@@ -44,6 +44,7 @@
 // // ```
 
 // // 👉 Below it write an if statement that will console.log `"Ben loves chocolate"` if likesChocolate has a value of true else console.log `"Ben hates chocolate"`. The condition for the if, and the name Ben should both be read from the object using dot notation.
+//
 // if (person.likesChocolate === true) {
 //   console.log(`${person.name} loves chocolate`);
 // } else {
@@ -96,3 +97,28 @@ console.log(bensPhrases[desiredPleasantry]);
 let arr = ["alex", "james", "platt"];
 
 console.log(arr, arr.length);
+
+// TASK 6
+
+let personInfo = {
+  name: "Alex",
+  age: 99,
+  hobbies: {
+    sport: "football",
+    tv: "The Sopranos",
+    film: "Gladiator",
+    additional: "Visiting new places",
+  },
+};
+
+console.log(personInfo.hobbies.tv);
+
+function printPersonInfo(name, age) {
+  let newPerson = {
+    firstName: name,
+    yearsOld: age,
+  };
+  return newPerson;
+}
+
+console.log(printPersonInfo("Alex", 99));
